@@ -1,0 +1,55 @@
+.app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: system-ui, sans-serif;
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.search input {
+  flex: 1;
+  padding: 0.6rem;
+  font-size: 1rem;
+}
+
+.search button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.error {
+  color: #c62828;
+}
+
+.temp {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.desc {
+  text-transform: capitalize;
+}
+
+.forecast {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.day {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.day img {
+  width: 50px;
+}
